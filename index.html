@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module" crossorigin src="/assets/index-iGpWE67M.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-so212XEK.css">
+</head>
+<body>
+  <!--header-->
+  <header class="" id="header">
+    <div class="bg-neutral-800 w-full h-36 flex flex-row ">
+      <!-- <button class="hidden mobile:block btn mobile:w-14 mobile:h-[90%] text-white p-[10px] m-[10px] rounded-lg tablet:w-14" onclick="toggleDarkMode()">
+        <img src="./public/Media/pictures/icons8-hand-drag-100.png" alt="">
+      </button> -->
+
+      
+      <button class="btn w-fit text-white bg-slate-400 capitalize p-[5px] m-[10px]  text-[12px]">night</button>
+      <div class="  mobile:w-80 tablet:w-32  ">
+        <img class="hidden mobile:block mobile:mx-22 mobile:mt-4 desktop:mt-24 tablet:mx-80 tablet:mt-0 desktop:mx-16 " src="/assets/logo-fr-BqhyckDw.png" alt="">
+      </div>
+      <ion-icon onclick="OntoggleMenu(this)" class="text-white hidden mobile:block tablet:hidden text-5xl p-10" name="menu"></ion-icon>
+
+      <div class="navlinks w-full h-[100vh] bg-neutral-800 absolute top-[-100%] tablet:hidden z-10 ">
+        <ul class="flex flex-col items-center pt-8 gap-12 font-iran font-bold text-white">
+          <li>
+            <a class="hover:text-red-500" href="index.html">صفحه اصلی</a>
+          </li>
+          <li>
+            <a class="hover:text-red-500" href="#">شرکت گلستان</a>
+          </li>
+          <li>
+            <a class="hover:text-red-500" href="Blog.html">وبلاگ</a>
+          </li>
+          <li>
+            <a class="hover:text-red-500" href="#">محصولات</a>
+          </li>
+          <li>
+            <a class="hover:text-red-500" href="#">قرعه کشی</a>
+          </li>
+          <li>
+            <a class="hover:text-red-500" href="#">استخدام</a>
+          </li>
+          <li>
+            <a class="hover:text-red-500" href="#">تماس با ما</a>
+          </li>
+        </ul>  
+      </div>
+
+      <div class="hidden tablet:flex flex-row mobile:w-10 mobile:p-10 tablet:w-[760px] desktop:mx-auto tablet:mt-[60px] desktop:mt-6">
+        <div id="menu" class="hidden flex-row  h-10  mobile:font-bold mobile:text-white/60  tablet:flex tablet:w-[100%] tablet:gap-1 tablet:justify-around tablet:pt-2 tablet:text-[15px] desktop:mt-0 font-iran  ">
+          <a class="hover:text-red-500" href="index.html">صفحه اصلی</a>
+          <div class="bg-white/35 w-[1px] h-[30px]"></div>
+          <a class="hover:text-red-500" href="#">شرکت گلستان</a>
+          <div class="bg-white/35 w-[1px] h-[30px]"></div>
+          <a class="hover:text-red-500" href="Blog.html">وبلاگ</a>
+          <div class="bg-white/35 w-[1px] h-[30px]"></div>
+          <a class="hover:text-red-500" href="#">محصولات</a>
+          <div class="bg-white/35 w-[1px] h-[30px]"></div>
+          <a class="hover:text-red-500" href="#">قرعه کشی</a>
+          <div class="bg-white/35 w-[1px] h-[30px]"></div>
+          <a class="hover:text-red-500" href="#">استخدام</a>
+          <div class="bg-white/35 w-[1px] h-[30px]"></div>
+          <a class="hover:text-red-500" href="#">تماس با ما</a>
+        </div>
+      </div>
+    </div> 
+  </header>
+   <!--end header-->
+   <!---->
+   <!-- <div class="h-[450px] w-[100%] flex flex-row bg-gray-200">
+    <div class="w-[50%] h-[450px] ">
+      <p class="pt-10 mx-11 pr-36 text-red-500 text-[30px]">قرعه‌کشی ماهیانه گلستان</p>
+      <p class="pt-2 mx-11 pr-36 text-[20px]">قرعه‌کشی ماهیانه مصرف‌کنندگان چای گلستان</p>
+      <p class="pt-2 mx-11 pr-36 text-gray-500">هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های ماهیانه سال 1403شرکت کنند. نگهداری از بسته‌بندی محصول برای اهدای جایزه الزامی است.</p>
+    </div>
+    <div class="w-[50%] h-[450px]">
+      <img class="pr-28 " src="./public/media/pictures/download.png" alt="">
+    </div>
+   </div> -->
+   <!--end-->
+   <!---->
+   <!-- <br>
+   <hr>
+   <div class="w-[100%] h-[700px] flex flex-row ">
+    <div class="w-[20%] h-[700px] "></div>
+    <div class="w-[60%] h-[700px] ">
+      <p class="pt-20 text-red-500 text-[20px]">معرفی گلستان</p>
+      <p class="pt-5">آنچه که امروز با نام مجموعه گلستان می‌شناسیم در سال 1329 بنیان نهاده شد. زمانی که شرکت گلستان فعالیت خود را با بسته‌بندی و توزیع چای پاکتی آغاز کرد. با گذر زمان و رشد اقتصاد کشور، نهال «گلستان» به تدریج تقویت شد و شاخ و برگ گرفت. فعالیت‌های «گلستان» با تهیه، تولید و بسته‌بندی بهترین محصولات غذایی گسترش پیدا کرد. گلستان پس از سال‌ها تلاش همچنان می‌کوشد تا به کمک تجربه‌های اندوخته شده در این سال‌ها کالاهایی قابل اعتماد و با کیفیت تولید نماید.</p>
+      <p class="pt-5">
+        هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف تعیین شده، به کار گیری همکاران مجرب و دلسوز، استفاده از روش های نوین بازاریابی و مشتری محوری از جمله عوامل مهم در استراتژی شرکت گلستان است.
+      </p>
+      <p class="pt-24 text-red-500 text-[20px]">
+        محصولات گلستان​
+      </p>
+      <p class="pt-5">
+        <span class="text-red-500">نام تجاری گلستا</span> قدمتی به اندازه عمر شرکت گلستان دارد. گلستان ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند. مصرف‌کنندگان محصولات گلستان همواره از این نام تجاری خاطره محصولاتی ممتاز و منحصر بفرد دارند و با اطمینان از نهایت کیفیت این نام تجاری حمایت می‌کنند.
+      </p>
+    </div>
+    <div class="w-[20%] h-[700px] "></div>
+   </div> -->
+   <!--end-->
+   <!---->
+   <!-- <div class="w-[100%] h-[300px] flex flex-row ">
+    <div class="w-[20%] h-[300px] "></div>
+    <div class="w-[60%] h-[300px] flex flex-row ">
+      <div class="w-[25%] h-[300px]">
+        <img class="w-[190px] h-[190px]" src="./public/media/pictures/download (1).jpg" alt="">
+      <p class="pt-5 text-center">سرمایه انسانی</p>
+      </div>
+      <div class="w-[25%] h-[300px]">
+        <img class="w-[190px] h-[190px]" src="./public/media/pictures/download (2).jpg" alt="">
+      <p class="pt-5 text-center">مراكز فروش</p>
+      </div>
+     <div class="w-[25%] h-[300px]">
+        <img class="w-[190px] h-[190px]" src="./public/media/pictures/download (3).jpg" alt="">
+      <p class="pt-5 text-center">محصولات گلستان</p>
+      </div>
+      <div class="w-[25%] h-[300px]">
+        <img class="w-[190px] h-[190px]" src="./public/media/pictures/download (4).jpg" alt="">
+      <p class="pt-5 text-center">مشتریان گلستان</p>
+      </div>
+    </div>
+    <div class="w-[20%] h-[300px] "></div>
+   </div> -->
+   
+   <!--end-->
+    <div class=" bg-neutral-300  dark:bg-neutral-500 w-full mobile:h-[550px] tablet:h-96  ">
+    <div class=" flex mobile:flex-col tablet:flex-row tablet:justify-around w-[80%] gap-4 mx-auto pt-4" >
+      <div class=" mobile:w-[90%] mobile:mx-auto mobile:h-[300px] tablet:w-[50%] pt-16 box-border font-iran">
+        <h1 class="text-red-500 text-[30px] font-bold"> قرعه‌کشی ماهیانه گلستان </h1>
+        <h2 class="text-black/65 text-[20px] pt-2"> قرعه‌کشی ماهیانه مصرف‌کنندگان چای گلستان </h2>
+        <p class="text-black/55 text-[13px] pt-2 dark:text-white animate__animated animate__fadeInRight">هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد قرعه کشی روی بسته به شماره 30007405 در قرعه کشی‌های ماهیانه سال 1403شرکت کنند. نگهداری از بسته‌بندی محصول برای اهدای جایزه الزامی است.</p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[30px] mt-3 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > اطلاعات بیشتر</button>
+        
+      </div>
+      <div class=" mobile:w-[90%] mobile:mx-auto mobile:h-[200px] tablet:w-[50%] tablet:h-[300px]">
+        <img class="mobile:w-[200px] mobile:mx-auto tablet:w-[300px] animate__animated animate__fadeInDown" src="/assets/download-CDaUSDfw.png" alt="">
+      </div>
+    </div>  
+  </div>
+    <div class=" mobile:w-full mobile:h-[550px] tablet:h-[450px]  dark:bg-stone-800">
+    <div class="bg-black/35  mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded  dark:hidden"></div>
+    <div class="  mx-auto mobile:w-[80%] mobile:h-[550px] mobile:pt-2 tablet:w-[50%] tablet:h-[550px] tablet:pt-5 desktop:h-[550px] box-border font-iran gap-2" >
+      <h1 class="text-red-500 text-[20px] font-bold animate__animated animate__fadeInRight"> معرفی گلستان</h1>
+      <p class="pt-2 text-[15px] dark:text-white animate__animated animate__fadeInRight">آنچه که امروز با نام مجموعه <span class="text-red-500">گلستان</span> می‌شناسیم در سال 1329 بنیان نهاده شد. زمانی که شرکت گلستان فعالیت خود را با بسته‌بندی و توزیع چای پاکتی آغاز کرد. با گذر زمان و رشد اقتصاد کشور، نهال «گلستان» به تدریج تقویت شد و شاخ و برگ گرفت. فعالیت‌های «گلستان» با تهیه، تولید و بسته‌بندی بهترین محصولات غذایی گسترش پیدا کرد. <span class="text-red-500">گلستان</span> پس از سال‌ها تلاش همچنان می‌کوشد تا به کمک تجربه‌های اندوخته شده در این سال‌ها کالاهایی قابل اعتماد و با کیفیت تولید نماید.</p>
+      <p class="pt-2 dark:text-white animate__animated animate__fadeInRight">هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف تعیین شده، به کار گیری همکاران مجرب و دلسوز، استفاده از روش های نوین بازاریابی و مشتری محوری از جمله عوامل مهم در استراتژی شرکت گلستان است.</p>
+      <h1 class="text-red-500 text-[20px] pt-8 font-bold animate__animated animate__fadeInRight"> محصولات گلستان</h1>
+      <p class=" text-[15px] tablet:h-[550px] pt-2 dark:text-white animate__animated animate__fadeInRight" >نام تجاری <span class="text-red-500">گلستان</span> قدمتی به اندازه عمر شرکت گلستان دارد. گلستان ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند. مصرف‌کنندگان محصولات گلستان همواره از این نام تجاری خاطره محصولاتی ممتاز و منحصر بفرد دارند و با اطمینان از نهایت کیفیت این نام تجاری حمایت می‌کنند.</p>
+    </div>
+  </div>
+   <div class=" tablet:w-full tablet:h-[400px] pt-6 tablet:pt-8 dark:bg-stone-800 animate__animated animate__bounceIn" >
+  <div class="flex flex-row justify-around mx-auto tablet:w-[80%] tablet:h-[250px] box-border" >
+    <div class="font-iran font-bold text-[13px]" >
+      <img class="mobile:w-[75px] mobile:h-[75px] tablet:w-[150px] tablet:h-[150px]" src="data:image/jpeg;base64,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" alt="">
+    <h2 class="pt-2 mobile:text-[10px] tablet:text-[15px] mobile:mx-2 tablet:mx-8 dark:text-white" >سرمایه انسانی</h2>
+    <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+    </div>
+    <div class="font-iran font-bold text-[13px]" >
+      <img class="mobile:w-[75px] mobile:h-[75px] tablet:w-[150px] tablet:h-[150px]" src="data:image/jpeg;base64,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" alt="">
+      <h2 class="pt-2 mobile:text-[10px] tablet:text-[15px] mobile:mx-3 tablet:mx-8 dark:text-white" >مراکز فروش</h2>
+      <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+    </div>
+ 
+    <div class="font-iran font-bold text-[13px]" >
+      <img class="mobile:w-[75px] mobile:h-[75px] tablet:w-[150px] tablet:h-[150px]" src="data:image/jpeg;base64,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" alt="">
+     <h2 class="pt-2 mobile:text-[10px] tablet:text-[15px] mobile:mx-0 tablet:mx-4 dark:text-white" > محصولات گلستان </h2>
+     <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+    </div>
+   
+    <div class="font-iran font-bold text-[13px]" >
+      <img class="mobile:w-[75px] mobile:h-[75px] tablet:w-[150px] tablet:h-[150px]" src="data:image/jpeg;base64,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" alt="">
+      <h2 class="pt-2 mobile:text-[10px] tablet:text-[15px] mobile:mx-0 tablet:mx-4 dark:text-white" >مشتریان گلستان</h2>
+      <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+    </div>
+  </div>
+     <div class=" mobile:w-full mobile:h-[350px]" >
+    <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+    <div class="bg-white dark:bg-stone-800 mobile:w-full mobile:h-[350px] mt-8 box-border relative bg-cover overflow-hidden">
+      <img class=" w-full mobile:h-[500px] mx-auto" src="/assets/download%20(16)-C7_0DPkb.jpg" alt="">
+      <div class="bg-red-600 mobile:w-full tablet:w-[300px] mobile:h-[100px] absolute right-52 bottom-0 rounded font-iran font-bold text-white z-10" >
+        <h1 class="pt-2 text-[20px] mx-4">برنج گلستان</h1>
+        <h2 class="pt-2 text-[13px] mx-4">معرفی محصول</h2>
+      </div>
+    </div>
+    <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-4 rounded dark:hidden"></div>
+    <div class=" mobile:w-full mobile:h-[400px] tablet:h-[350px] font-iran dark:bg-stone-800">
+      <div class=" mx-auto mobile:w-[80%] tablet:w-[50%] mobile:h-[300px]  pt-4">
+        <h1 class="mx-5 pt-5 font-bold text-[20px] text-red-500">رکن اول غذای ایرانی</h1>
+        <p class="mx-5 pt-5 font-bold text-[13px] dark:text-white"> مرغوب‌ترین برنج دنیا، برنج ایران است و بهترین نوع برنج ایرانی،‌ طارم و هاشمی. این برنج‌ها از بهترین شالیزارهای مازندران برداشت شده، پس از كنترل كیفیت در آزمایشگاه‌های تخصصی گلستان وارد چرخه بسته‌بندی و در وزن‌های مختلف به بازار عرضه می‌شوند. عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است چرا كه مشتریان گلستان؛‌ لایق بهترین‌ها هستند. </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > محصولات برنج </button>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > آشپزخانه گلستان </button>
+      </div>
+    </div>
+       <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+    <div class="bg-white dark:bg-stone-800 mobile:w-full mobile:h-[350px] pt-8 box-border relative bg-cover overflow-hidden">
+      <img class=" w-full mobile:h-[500px] mx-auto" src="/assets/download%20(15)-DihwgYsZ.jpg" alt="">
+      <div class="bg-red-600 mobile:w-full tablet:w-[300px] mobile:h-[100px] absolute right-52 bottom-0 rounded font-iran font-bold text-white z-10" >
+        <h1 class="pt-2 text-[20px] mx-4">چای گلستان</h1>
+        <h2 class="pt-2 text-[13px] mx-4">معرفی محصول</h2>
+      </div>
+    </div>
+    <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-4 rounded dark:hidden"></div>
+    <div class=" mobile:w-full mobile:h-[400px] tablet:h-[350px] font-iran dark:bg-stone-800 ">
+      <div class=" mx-auto mobile:w-[80%] tablet:w-[50%] mobile:h-[300px]  pt-4 ">
+        <h1 class="mx-5 pt-5 font-bold text-[20px] text-red-500 "> سابقه‌ای به قدمت یک عمر  </h1>
+        <p class="mx-5 pt-5 font-bold text-[13px] dark:text-white"> چای تنها یك نوشیدنی گرم نیست. یک گفتمان است؛‌ گرمابخش وجود و بهانه‌ای برای آغاز یك معاشرت دل‌چسب. بی‌دلیل نیست كه نام «محبوب‌ترین نوشیدنی دنیا» را با خود یدک می‌كشد. نوشیدنش خستگی‌ها را فراری داده،‌ حس خوب آرامش را به همراه دارد. </p>
+        <p class="mx-5 pt-5 font-bold text-[13px] dark:text-white"> برای مردمان ایران زمین نام گلستان با چای پیوند خورده است؛‌ قدیمی‌ترین محصول مجموعه گلستان،‌ با مدرن‌ترین و بهداشتی‌ترین دستگاه‌های روز دنیا تهیه و بسته‌بندی می‌شود. چیزی كه باعث شده مشتریانش یك عمر به نام گلستان اعتماد كنند، كیفیت، ‌عطر و طعم به یادماندنی آن است. </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > محصولات چای </button>
+    </div>
+   
+  </div>
+      <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-2 rounded dark:hidden"></div>
+   <div class="bg-white dark:bg-stone-800 mobile:w-full mobile:h-[350px] pt-8 box-border relative bg-cover overflow-hidden  ">
+     <img class=" mobile:h-[500px] mx-auto w-full h-[700px] box-border" src="/assets/download%20(14)-Bmj7VSZE.jpg" alt="">
+     <div class="bg-red-600 mobile:w-full tablet:w-[300px] mobile:h-[100px] absolute right-52 bottom-0 rounded font-iran font-bold text-white z-10" >
+       <h1 class="pt-2 text-[20px] mx-4">پسته گلستان</h1>
+       <h2 class="pt-2 text-[13px] mx-4">معرفی محصول</h2>
+     </div>
+   </div>
+   <div class="bg-black/35 mobile:w-[90%] mobile:h-[2px] mx-auto mt-4 rounded dark:hidden"></div>
+   <div class=" mobile:w-full mobile:h-[400px] tablet:h-[350px] font-iran dark:bg-stone-800">
+     <div class=" mx-auto mobile:w-[80%] tablet:w-[50%] mobile:h-[350px]  pt-4">
+       <h1 class="mx-5 pt-5 font-bold text-[20px] text-red-500"> آجيل‌های خوش خنده </h1>
+       <p class="mx-5 pt-5 font-bold text-[13px] dark:text-white"> خواص فوق‌العاده پسته بر كسی پوشیده نیست. پسته را منبع ویتامین و مواد معدنی می‌نامند، یك پمپ خون‌ساز قوی و تسكین دهنده قلب و اعصاب. </p>
+       <p class="mx-5 pt-5 font-bold text-[13px] dark:text-white"> پسته گلستان اما حسابش از دیگر پسته‌های بازار جداست. مرغوب‌ترین پسته خام از بهترین باغ‌های پسته ایران دستچین می‌شود.‌ پس از كنترل كیفیت در آزمایشگاه و اطمینان از سلامت محصول،‌ با زعفران درجه یک و نمک، بوداده و برشته شده و‌ پسته گلستان را با طعم و رنگ و عطری بی‌نظیر به ارمغان می‌آورد. </p>
+       <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > ناتس گلستان </button>
+   </div>
+   <div class=" w-full font-iran ps-20 pt-8 pb-8 text-red-500 text-[20px] dark:bg-stone-800">
+    <h1 class="font-bold ">مجله گلستان</h1>
+   </div>
+   <div class="w-full mobile:h-[1600px] tablet:h-[500px] desktop:h-[700px]  bg-green-300 flex justify-center dark:bg-green-950 " >
+    <div class=" mobile:w-[90%] tablet:w-[80%] tablet:h-[500px] desktop:h-[600px]  mobile:mx-auto my-auto pt-6 flex mobile:flex-col tablet:flex-row justify-around gap-4">
+      <div class="bg-white mx-auto mobile:w-[70%] tablet:w-[30%] h-[100%] overflow-hidden rounded shadow-black">
+        <img class="w-full" src="/assets/download%20(11)-CLn4Xhh1.jpg" alt="">
+        <h1 class="pt-4 mx-4 font-iran font-bold text-red-500 text-[20px]">ماکارونی با سبزیجات</h1>
+        <p class="pt-2 block mx-2">ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > ادامه مطلب  </button>
+      </div>
+      <div class="bg-white mx-auto mobile:w-[70%] tablet:w-[30%] h-[100%] overflow-hidden rounded shadow-black">
+        <img class="w-full" src="/assets/download%20(12)-BhY6h_qG.jpg" alt="">
+        <h1 class="pt-4 mx-4 font-iran font-bold text-red-500 text-[20px]"> سوپ مکزیکی </h1>
+        <p class="pt-2 block mx-2"> گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن   </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > ادامه مطلب  </button>
+      </div>
+      <div class="bg-white mx-auto mobile:w-[70%] tablet:w-[30%] h-[100%] overflow-hidden rounded shadow-black">
+        <img class="w-full" src="/assets/download%20(13)-BIfQ5j98.jpg" alt="">
+        <h1 class="pt-4 mx-4 font-iran font-bold text-red-500 text-[20px]"> چیلاکیله </h1>
+        <p class="pt-2 block mx-2"> احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > ادامه مطلب  </button>
+      </div>
+    </div>
+   </div>
+   <!--video-->
+      <div class=" w-full mobile:h-[1700px] tablet:h-[600px] desktop:h-[700px] flex justify-center dark:bg-stone-800 ">
+    <div class=" w-[90%] mobile:h-[1600px] tablet:h-[500px] desktop:h-[550px] my-auto flex mobile:flex-col tablet:flex-row justify-between">
+      <div class="bg-white border-gray-500 border-[1px] mx-auto mobile:w-[70%] tablet:w-[30%] tablet:h-[100%] overflow-hidden rounded shadow-black ">
+        <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/QFSIK/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+        <h1 class="pt-4 mx-4 font-iran font-bold text-red-500 text-[20px]">سالاد نودل</h1>
+        <p class="pt-2 block mx-2"> نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و خوشمزه لذت ببرید. </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" >  ویدیوهای بیشتر  </button>
+      </div>
+      <div class="bg-white border-gray-500 border-[1px] mx-auto mobile:w-[70%] tablet:w-[30%] tablet:h-[100%] overflow-hidden rounded shadow-black">
+        <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/wrOuF/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+        <h1 class="pt-4 mx-4 font-iran font-bold text-red-500 text-[20px]">اینستاگرام هاتی نودل</h1>
+        <p class="pt-2 block mx-2"> نودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم عالی،‌ ارزش غذایی بالا و قیمت مناسب از این محصول غذای سالم و كاملی  . </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" > ادامه مطلب  </button>
+      </div>
+      <div class="bg-white border-gray-500 border-[1px] mx-auto mobile:w-[70%] tablet:w-[30%] tablet:h-[100%] overflow-hidden rounded shadow-black">
+        <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/mFA3k/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+        <h1 class="pt-4 mx-4 font-iran font-bold text-red-500 text-[20px]"> برنج گلستان </h1>
+        <p class="pt-2 block mx-2"> عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است. چرا كه مشتریان گلستان؛‌ لایق بهترین  . </p>
+        <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500" >  مشاهده محصولات  </button>
+      </div>
+    </div>
+   </div>
+   
+
+        
+
+   <!--end video-->
+ <!-- Golestan Building -->
+   <div class="w-full mobile:h-[600px] tablet:h-[600px] bg-teal-800 flex flex-col gap-2 pt-64  ">
+    <h1 class=" mx-auto font-iran font-bold text-white text-[20px]">مسئولیت های اجتماعی شرکت گلستان</h1>
+    <hr class="">
+    <h2 class="text-[25px] mx-auto font-bold text-teal-950">Golestan Social Responsibility</h2>
+    <h2 class="text-[20px] mx-auto font-bold text-white/70">Mahdi Hospital</h2>
+    <img class="w-[400px] h-[400px] mx-auto" src="/assets/download%20(6)-l47RpxtA.jpg" alt="">
+   </div>
+   <div class="bg-white w-full mobile:h-[600px] tablet:h-[500px] dark:bg-stone-900">
+    <h1 class="pt-48 mobile:mx-24 tablet:mx-48 font-iran font-bold text-red-500 text-[20px]"> مسئوليت‌های اجتماعی گلستان </h1>
+    <p class="pt-8 block w-[50%] mx-auto dark:bg0-stone-800 dark:text-white"> كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند. گلستان در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است. </p>
+    <button class="border-2 rounded bg-gray-100 w-[120px] h-[40px] mt-5 text-black/65 text-[13px] font-bold hover:bg-yellow-500 mobile:mx-28 tablet:mx-48 desktop:mx-96" > اطلاعات بیشتر </button>
+   </div>
+
+    <!-- footer -->
+   <footer>
+    <div class="w-full bg-gray-100 dark:bg-stone-700">
+      <ul class="flex justify-center  space-x-5 flex-row items-center ">
+        <li> 
+        </li>
+        <li>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                    </path>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </li>
+        <li>
+          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </a>
+        </li>
+    </ul>
+    </div>
+    <div class="bg-red-500 w-full mobile:h-[1700px] tablet:h-[500px] flex items-end">
+      <div class="bg-stone-800 w-full h-[90%] flex mobile:flex-col justify-center items-center">
+        <div class=" w-[95%] h-[70%] mobile:w-[80%] flex mobile:flex-col tablet:flex-row justify-center items-center">
+          <div class=" mobile:w-[90%] tablet:w-[20%] h-[100%] flex flex-col justify-center items-center gap-2">
+            <img src="data:image/png;base64,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" alt="">
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <h1 class="text-white text-[18px] mobile:w-[50%]">چای گلستان</h1>
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">چای ممتاز هندوستان</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">چای ممتاز ارل گری</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">چای سیلان عطری </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">چای ممتاز سیلان  </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">چای صبحانه گلستان  </a>
+          </div>
+          <div class="mobile:w-[90%] tablet:w-[20%] h-[100%] flex flex-col justify-center items-center gap-2">
+            <img src="/assets/download%20(2)-D0U9ekCB.png" alt="">
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <h1 class="text-white text-[18px] mobile:w-[50%]">تی بگ گلستان</h1>
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">تی بگ بلک لاین</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">تی بگ ارل گری</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">دمنوش نعنا </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#"> دمنوش بابونه </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#"> دمنوش چای سبز </a>
+          </div>
+          <div class="mobile:w-[90%] tablet:w-[20%] h-[100%] flex flex-col justify-center items-center gap-2">
+            <img src="data:image/png;base64,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" alt="">
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <h1 class="text-white text-[18px] mobile:w-[50%]">ادویه گلستان</h1>
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">زعفران ممتاز خراسان</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">ادویه کاری</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">ادویه ماست و خیار </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">فلفل سیاه خالص</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#"> زردچوبه ممتاز </a>
+          </div>
+          <div class="mobile:w-[90%] tablet:w-[20%] h-[100%] flex flex-col justify-center items-center gap-2">
+            <img src="/assets/download%20(4)-iaATh4fd.png" alt="">
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <h1 class="text-white text-[18px] mobile:w-[50%]">حبوبات  گلستان</h1>
+            <div class="bg-white mobile:w-[50%] mobile:h-[2px] mx-auto mt-2 rounded"></div>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">لوبیا قرمز ممتاز</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">لوبیا چیتی گلستان</a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#">عدس کانادایی </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#"> نخود زودپز کرمانشاه </a>
+            <a class="text-white/50 hover:text-white text-[12px] mobile:w-[90%]" href="#"> لوبیا سفید گلستان  </a>
+          </div>
+        </div>
+        <div class=" w-[60%] h-[20%] flex flex-col justify-center items-center text-white" >
+          <h1 >All Right Reserved Golestan Company 2022-2025</h1>
+          <h4>Design By: Golestan Studio</h4>
+        </div>
+      </div>
+
+    </div>
+   </footer>
+
+
+    <script>
+      let btn = document.querySelector(".btn");
+      console.log(btn);
+      let flag=true;
+      btn.addEventListener("click",function(){
+        if (flag === true){
+          document.body.classList.add("dark");
+          this.textContent = "day";
+          flag = false;
+        }else{
+          document.body.classList.remove("dark");
+          this.textContent = "night";
+          flag = true;
+        }
+      });
+      
+    </script>
+
+     <script>
+      const navlinks = document.querySelector('.navlinks')
+      function OntoggleMenu(e) {
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navlinks.classList.toggle('top-[120px]')
+      }
+      
+    </script>
+
+
+      <!-- <script>
+    let btn = document.querySelector(".btn");
+    console.log(btn);
+    let flag = true;
+    btn.addEventListener("click", function () {
+     if (flag === true) {
+       document.body.classList.add("dark");
+       flag=false
+     }else{
+       document.body.classList.remove("dark");
+       flag=true
+     }
+    });
+   </script> -->
+   
+     <!-- <script>
+      const navlinks = document.querySelector('.navlinks')
+      function OntoggleMenu(e) {
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navlinks.classList.toggle('top-[120px]')
+      }
+      
+    </script> -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
